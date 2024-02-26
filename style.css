@@ -1,0 +1,54 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#product-name {
+	border: 1px solid #000000;
+	padding: 5px;
+}
+
+#review-text {
+	border: 1px solid #000000;
+	padding: 5px;
+}
+
+.add-review {
+	padding-top: 5px;
+}
+
+.add-review input,
+.add-review textarea {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.add-review button {
+	padding: 5px 10px;
+	border: 1px solid #ccc;
+}
+
+.review-item {
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.review-item h3 {
+	font-weight: 700;
+}
+
+.review-item p {
+	padding: 10px 0 10px 0;
+}
+
+.review-item button {
+	margin-top: 5px;
+	padding: 5px;
+	border: 1px solid #ccc;
+}
