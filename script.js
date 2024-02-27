@@ -25,12 +25,11 @@ function displayReviews() {
 		const reviewItem = document.createElement('div');
 		reviewItem.classList.add('review-item');
 		reviewItem.innerHTML = `
-      <h3 class="review-product">${review.productName}</h3>
+      <h3>${review.productName}</h3>
       <p>${review.reviewText}</p>
       <button onclick="deleteReview(${index})">Удалить</button>
 `;
 		reviewsContainer.appendChild(reviewItem);
-		let newReview = document.querySelector('.review-product');
 	});
 }
 
